@@ -1,4 +1,9 @@
 # Master-Slave Replication with Redis : step by step
+<p align="center">
+	<a href="#" >
+	    <img src="replication.png">
+	</a>
+</p>
 If you didn't yet played with redis, then follow this guide to set i up and then come back here.
 We assume that you have added the <redisfolder/src folder to tha path environement variable. We will use redis-server and redis-clis from any folder.
 

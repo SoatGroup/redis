@@ -1,6 +1,14 @@
 # Hight Availability on Redis with sentinel : step by step
-If you didn't yet played with redis, then follow this guide to set it up and then come back here. [COMPLETE]
-We assume that you have added the <redisfolder/src folder to tha path environement variable. We will use redis-server and redis-clis from any folder.
+<p align="center">
+	<a href="#" >
+	    <img src="sentinel.png">
+	</a>
+</p>
+If you didn't yet played with redis, then it is a good idea to do this and come back :
+* [Redis quich start](quick_start)
+* [master_slave_replication](master_slave_replication)
+
+We assume that you have done the previous steps. We will use redis-server and redis-clis from any folder.
 
 ## Choose a folder from where to play with redis.
 Here we choose redis_sentinel.

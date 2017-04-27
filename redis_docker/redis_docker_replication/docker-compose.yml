@@ -1,0 +1,7 @@
+master:
+  image: mccstanmbg/redis
+slave:
+  image: mccstanmbg/redis
+  command: redis-server --slaveof redis-master 6379
+  links:
+    - master:redis-master

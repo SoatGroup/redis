@@ -12,8 +12,8 @@ This is a quick start guide that targets people without prior experience with Re
 ## Master slave replication on redis 
 I you have done with the previous section, or you already know about redis but want to do more, we will focus in this section on how to achieve a master slave replication using redis.
 We will do that :
-    * Manually writing our configs and launching instances.
-    * Using automation scripts to get things more easier
+* Manually writing our configs and launching instances.
+* Using automation scripts to get things more easier.
 Come on guys, it is  [here](master_slave_replication).
 
 ### Hight avalability with redis sentinel

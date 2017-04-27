@@ -20,15 +20,35 @@ sudo cp src/redis-cli /usr/local/bin/
 ## Starting Redis
 The simplest way to start the Redis server is just executing the redis-server binary without any argument.
 ```shell
-$ redis-server
-[28550] 01 Aug 19:29:28 # Warning: no config file specified, using the default config. In order to specify a config file use 'redis-server /path/to/redis.conf'
-[28550] 01 Aug 19:29:28 * Server started, Redis version 2.2.12
-[28550] 01 Aug 19:29:28 * The server is now ready to accept connections on port 6379
+$ redis-server 
+7937:C 27 Apr 11:10:52.780 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+7937:M 27 Apr 11:10:52.783 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+7937:M 27 Apr 11:10:52.783 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+7937:M 27 Apr 11:10:52.783 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.0 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 7937
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+
 ... more logs ...
 ```
 
 ## Playing with redis
-Using redis clis, connect to the server instance we just launched.
+Using redis-cli, connect to the server instance we just launched.
 ```shell
 $ redis-cli                                                                
 redis 127.0.0.1:6379> ping

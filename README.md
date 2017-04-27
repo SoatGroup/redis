@@ -15,9 +15,9 @@ We will do that :
 * Manually writing our configs and launching instances.
 * Using automation scripts to get things more easier.
 
-Come on guys, it is  [here](master_slave_replication).
+Come on guys, it is here :  [master_slave_replication](master_slave_replication).
 
 ### Hight avalability with redis sentinel
 Redis Sentinel provides high availability for Redis. In practical terms this means that using Sentinel you can create a Redis deployment that resists without human intervention to certain kind of failures.
 Redis Sentinel also provides other collateral tasks such as monitoring, notifications and acts as a configuration provider for clients.
-Let's do it now : [here](redis_sentinel).
+Let's do it now : [redis_sentinel](redis_sentinel).

@@ -14,6 +14,7 @@ I you have done with the previous section, or you already know about redis but w
 We will do that :
 * Manually writing our configs and launching instances.
 * Using automation scripts to get things more easier.
+
 Come on guys, it is  [here](master_slave_replication).
 
 ### Hight avalability with redis sentinel

@@ -28,4 +28,6 @@ Twemproxy (pronounced "two-em-proxy"), aka nutcracker is a fast and lightweight 
 
 The guide here : [redis_twemproxy](redis_twemproxy).
 
-###
+## 5. Redis inside docker containers
+
+The step by step guide : [redis_docker](redis_docker).

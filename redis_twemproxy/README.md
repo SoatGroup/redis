@@ -46,7 +46,7 @@ beta:
   servers:
    - 127.0.0.1:7777:1 server1
    - 127.0.0.1:8888:1 server2
-   EOF
+EOF
 ```
 
 ## Run the redis instances 

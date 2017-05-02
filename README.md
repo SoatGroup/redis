@@ -17,10 +17,15 @@ We will do that :
 
 Come on guys, it is here :  [master_slave_replication](master_slave_replication).
 
-### 3. Hight avalability with redis sentinel
+## 3. Hight avalability with redis sentinel
 Redis Sentinel provides high availability for Redis. In practical terms this means that using Sentinel you can create a Redis deployment that resists without human intervention to certain kind of failures.
 Redis Sentinel also provides other collateral tasks such as monitoring, notifications and acts as a configuration provider for clients.
+
 Let's do it now : [redis_sentinel](redis_sentinel).
 
-### 4. Twemproxy for sharding, coupled with sentinel for Hight availability
-twemproxy (pronounced "two-em-proxy"), aka nutcracker is a fast and lightweight proxy for memcached and redis protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture. 
+## 4. Twemproxy for sharding, coupled with sentinel for Hight availability
+Twemproxy (pronounced "two-em-proxy"), aka nutcracker is a fast and lightweight proxy for memcached and redis protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture. 
+
+The guide here : [redis_twemproxy](redis_twemproxy).
+
+###

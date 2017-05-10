@@ -9,11 +9,12 @@ QUORUM=2
 PARALLELE_SYNCHS=1
 
 ## comment if you launched the master_slave.sh script to create the nodes.
-./master_slave.sh init
-./master_slave.sh start
+
 
 if [ "$1" == "init" ]
 then
+    ./master_slave.sh init
+    ./master_slave.sh start
     while [ $((PORT < ENDPORT)) != "0" ]; do
         PORT=$((PORT+1))
         MASTER=$((MASTER+1))

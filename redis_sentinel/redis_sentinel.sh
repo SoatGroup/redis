@@ -8,9 +8,9 @@ MASTER_PORT="6380"
 QUORUM=2
 PARALLELE_SYNCHS=1
 
-## Un comment if you didn't start the master_slave.sh script to create the nodes.
-#./master_slave.sh init
-#./master_slave.sh start
+## comment if you launched the master_slave.sh script to create the nodes.
+./master_slave.sh init
+./master_slave.sh start
 
 if [ "$1" == "init" ]
 then

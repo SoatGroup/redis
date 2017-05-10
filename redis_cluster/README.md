@@ -111,7 +111,7 @@ S: f54ea962a62451e9a8765c8e95ca027f10270ff7 127.0.0.1:7005
 ```
 
 ## Launch the cluster with provided scripts without any configuration
-TO BE DOCUMENTED SOON.
+Type ./redis_cluster for help
 
 
 ## play with the cluster

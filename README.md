@@ -7,7 +7,7 @@
 Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs and geospatial indexes with radius queries. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster. 
 
 ## 1. The quick start guide
-This is a quick start guide that targets people without prior experience with Redis. This will help you set up redis and run your first redis instance: [Redis quich start](quick_start)
+This is a quick start guide that targets people without prior experience with Redis. This will help you set up redis and run your first redis instance: [Redis quick start](quick_start)
 
 ## 2. Master slave replication on redis 
 I you have done with the previous section, or you already know about redis but want to do more, we will focus in this section on how to achieve a master slave replication using redis.
